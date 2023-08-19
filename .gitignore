@@ -1,6 +1,41 @@
+# Ignore system and IDE files
 .DS_Store
 .vscode
+.idea
+
+# Ignore build dependencies
 /node_modules
-/.idea
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+
+# Ignore compiled binaries and archives
+*.exe
+*.dll
+*.jar
+*.zip
+*.tar.gz
+
+# Ignore log files
+*.log
+
+# Ignore user-specific files
+/user_settings.json
+
+# Ignore generated documentation
+/docs
+
+# Ignore sensitive or configuration files
+config.ini
+secrets.conf
+
+# Ignore compiled code
+*.class
+*.o
+
+# Ignore archive files
 /archive_test
+
+# Ignore testing artifacts
 index_test.html
